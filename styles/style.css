@@ -15,6 +15,7 @@
 }
 
 .header {
+  display: flex;
   position: relative;
   height: 100vh;
   min-height: 600px;
@@ -149,10 +150,6 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
-}
-
-.header{
-  display: flex;
 }
 
 .header__title{

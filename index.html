@@ -26,18 +26,18 @@
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <h2 class="two-columns_brief">Главные проблемы в обучении</h2>
-          <div class="two-columns_main-text">
-            <p class="two-columns_paragraph">Ни в школе, ни в институте нас не учат тому, как правильно
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно
               изучать материал. Мы готовимся к
               экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
               но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит
               пользы.
             </p>
-            <p class="two-columns_paragraph"><span class="two-columns_span-accent">Вывод:</span> учиться тоже нужно
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно
               уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
-            <p class="two-columns_paragraph two-columns_paragraph_indent_null">Конкретные техники и упражнения помогают
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают
               изменить подход к
               обучению, сделать его эффективным и
               захватывающим. Эти же техники применяются на примере обучения в Практикуме.
@@ -96,9 +96,9 @@
       </section>
 
       <section class="feynman">
-        <h2 class="section-title section-title_section_feynman">Метод Фейнмана</h2>
-        <p class="section-subtitle section-subtitle_section_feynman">Выучить и не забыть.</p>
-        <p class="feynman__link"><a class="link" href="#">Подробнее →</a></p>
+        <h2 class="section-title section-title__section_feynman">Метод Фейнмана</h2>
+        <p class="section-subtitle section-subtitle__section_feynman">Выучить и не забыть.</p>
+        <a class="feynman__link link" href="#">Подробнее →</a>
       </section>
 
       <section class="kaufman">
@@ -169,14 +169,16 @@
         <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
           <nav class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">Концепция</a>
-            <a class="footer__column-link" href="#">Наставники</a>
+            <ul class="footer__column_list">
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+            </ul>
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
-          <ul>
+          <ul class="footer__column_list">
             <li><a class="footer__column-link" href="#">
                 <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Иконка фэйсбук">Facebook</a>
             </li>
@@ -184,7 +186,8 @@
                 <img class="footer__social-icon" src="images/vk_color_white.svg" alt="Иконка Вконтакте">Вконтакте</a>
             </li>
             <li><a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Иконка инстаграм">Instagram</a>
+                <img class="footer__social-icon" src="images/instagram_color_white.svg"
+                  alt="Иконка инстаграм">Instagram</a>
             </li>
           </ul>
         </div>

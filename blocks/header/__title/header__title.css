@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   position: relative;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   margin-left: 64px;
   display: flex;
   align-items: center;
